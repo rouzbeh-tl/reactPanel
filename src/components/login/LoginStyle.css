@@ -1,0 +1,75 @@
+/* .AppBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    
+}
+
+.lognForm{
+ 
+    background-color: rgba(255,255,255,0.33);
+    box-shadow: 0px 8px 32px 0 rgba(0,0,255,0.3);
+    backdrop-filter: blur(3px);
+    padding: 0px 16px 16px 16px ;
+    border-radius: 16px;
+}
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    input {
+      max-width: 100%;
+    }
+  } */
+
+  .AppBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1890ff;
+    
+}
+
+  .login-form {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000033;
+  }
+  
+  .login-form-button {
+    width: 100%;
+    border-radius: 5px;}
+  
+  .login-form-button:hover {
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .input {
+    border-radius: 5px;
+  }
+  
+  .ant-divider-horizontal {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ant-divider-horizontal span {
+    font-size: 14px;
+    margin: 0 16px;
+    position: relative;
+    top: -1px;
+  }
+  
